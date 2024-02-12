@@ -1,10 +1,10 @@
- from flask import Flask, render_template_string
+from flask import Flask, render_template_string
 
 app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    message = "My name is Pricne and l love DevOps!!!"
+    message = "My name is Prince l love devOps!!!"
     return render_template_string('''
     <!DOCTYPE html>
     <html lang="en">
