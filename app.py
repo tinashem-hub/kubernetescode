@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    message = "My name is Prince l love devOps!!!"
+    message = "My name is Prince l love DevOps😎!!"
     return render_template_string('''
     <!DOCTYPE html>
     <html lang="en">
